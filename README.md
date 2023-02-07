@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# React studies
+
+## Roadmap
+
+- A simple counter component
+- List rendering
+- Using css modules
+- Testing and coverage
+
+## useful links
+
+- <https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom>
+- <https://stackoverflow.com/questions/69866581/property-exact-does-not-exist-on-type>
+
+---
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
