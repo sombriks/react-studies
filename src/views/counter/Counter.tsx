@@ -1,8 +1,16 @@
-import {Component} from "react";
+import {useState} from "react";
 
-export class Counter extends Component {
+import "./Counter.css";
 
-    render(){
-        return <div>Counter</div>
-    }
+export function Counter(props: any) {
+
+    const [count, setCount] = useState(0);
+
+    return (
+        <div className="panel">
+            <button className="btn" onClick={() => setCount(count + 1)}>
+                Clicked {count} times
+            </button>
+        </div>
+    )
 }
