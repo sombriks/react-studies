@@ -1,9 +1,12 @@
 import React from "react";
+import {Props} from "./Counter"
+
 import "../counter/Counter.css"
-import {Props} from "../counter/Counter"
+
 interface State {
     counter: number
 }
+
 export class CounterClassic extends React.Component<Props, State> {
     state = {counter: 0}
     increment() {

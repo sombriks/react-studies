@@ -2,15 +2,18 @@
 
 ## Roadmap
 
-- A simple counter component
-- List rendering
-- Using css modules
-- Testing and coverage
+- [X] A simple counter component
+- [X] Passing props
+- [X] List rendering
+- [ ] Using css modules
+- [ ] Better testing library
+- [ ] Ccoverage
 
 ## useful links
 
 - <https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom>
 - <https://stackoverflow.com/questions/69866581/property-exact-does-not-exist-on-type>
+- <https://testing-library.com/docs/queries/bytext/>
 
 ---
 
