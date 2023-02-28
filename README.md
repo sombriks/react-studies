@@ -1,13 +1,20 @@
 # React studies
 
+Simple and prgressive exercicses to create user interfaces with react
+
 ## Roadmap
 
-- [X] A simple counter component
-- [X] Passing props
-- [X] List rendering
+- [X] A simple counter component (one with function components and other with classes :check:)
+- [X] List rendering passing props
 - [X] Using css modules (rename .css file to .module.css, see counter example)
 - [X] Write more tests (see what testing-library can do)
 - [X] Coverage (just add --coverage into npm test script)
+- [ ] TODO list
+- [ ] Memory game
+- [ ] Tic-tac-toe
+- [ ] Wordle-ish clone
+
+_under construction_
 
 ## useful links
 
