@@ -5,15 +5,23 @@
 - [X] A simple counter component
 - [X] Passing props
 - [X] List rendering
-- [ ] Using css modules
-- [ ] Better testing library
-- [ ] Ccoverage
+- [X] Using css modules (rename .css file to .module.css, see counter example)
+- [X] Write more tests (see what testing-library can do)
+- [X] Coverage (just add --coverage into npm test script)
 
 ## useful links
 
+- <https://stackoverflow.com/a/61386453/420096>
+- <https://testing-library.com/docs/react-testing-library/example-intro>
+- <https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/>
 - <https://stackoverflow.com/questions/63124161/attempted-import-error-switch-is-not-exported-from-react-router-dom>
 - <https://stackoverflow.com/questions/69866581/property-exact-does-not-exist-on-type>
 - <https://testing-library.com/docs/queries/bytext/>
+
+## troubleshooting
+
+- for some reason i had to rename list-rendering folder to listrendering so
+  tests could be found
 
 ---
 
