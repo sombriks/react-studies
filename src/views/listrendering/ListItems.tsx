@@ -1,10 +1,10 @@
 import "./foo.css"
 
 export interface ListProps {
-    items: ListItems[]
+    items: ListItem[]
 }
 
-export interface ListItems {
+export interface ListItem {
     id: number
     label: string
 }
