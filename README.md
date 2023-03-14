@@ -9,6 +9,7 @@ Simple and prgressive exercicses to create user interfaces with react
 - [X] Using css modules (rename .css file to .module.css, see counter example)
 - [X] Write more tests (see what testing-library can do)
 - [X] Coverage (just add --coverage into npm test script)
+- [X] Publish on github pages or something <https://sombriks.github.io/react-studies>
 - [ ] TODO list
 - [ ] Memory game
 - [ ] Tic-tac-toe
