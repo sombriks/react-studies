@@ -18,6 +18,7 @@ _under construction_
 
 ## useful links
 
+- <https://create-react-app.dev/docs/adding-custom-environment-variables>
 - <https://stackoverflow.com/a/46518138/420096>
 - <https://stackoverflow.com/a/61386453/420096>
 - <https://testing-library.com/docs/react-testing-library/example-intro>

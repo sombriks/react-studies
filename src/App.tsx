@@ -13,7 +13,7 @@ import {ListItems} from "./views/listrendering/ListItems";
 
 function App() {
     return (
-        <Router basename="/react-studies">
+        <Router>
             <nav>
                 <Link to="">Home</Link>
                 <Link to="counter">Counter</Link>
