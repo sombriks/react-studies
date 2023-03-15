@@ -1,12 +1,6 @@
 import React from 'react';
-import {
-    render,
-    screen,
-    fireEvent,
-    getByPlaceholderText,
-} from '@testing-library/react';
+import {render, screen, fireEvent,} from '@testing-library/react';
 import {TodoContainer} from "./TodoContainer";
-import {fireInputEvent} from "@testing-library/user-event/dist/keyboard/shared";
 
 test("todo component behavior", () => {
 
