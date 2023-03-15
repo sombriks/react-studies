@@ -10,7 +10,7 @@ Simple and prgressive exercicses to create user interfaces with react
 - [X] Write more tests (see what testing-library can do)
 - [X] Coverage (just add --coverage into npm test script)
 - [X] Publish on GitHub pages or something <https://sombriks.github.io/react-studies>
-- [ ] TODO list
+- [X] TODO list
 - [ ] Memory game
 - [ ] Tic-tac-toe
 - [ ] Wordle-ish clone
@@ -19,6 +19,7 @@ _under construction_
 
 ## useful links
 
+- <https://testing-library.com/docs/example-input-event/>
 - <https://create-react-app.dev/docs/adding-custom-environment-variables>
 - <https://stackoverflow.com/a/46518138/420096>
 - <https://stackoverflow.com/a/61386453/420096>
