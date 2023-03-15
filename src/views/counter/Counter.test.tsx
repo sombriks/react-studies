@@ -4,7 +4,7 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import {Counter} from "./Counter";
 import {CounterClassic} from "./CounterClassic";
 
-test("Counter button", () => {
+test("click counter button", () => {
   
   render(<Counter/>)
 
@@ -15,7 +15,7 @@ test("Counter button", () => {
   expect(screen.getByText(/Clicked 1 Times/i)).toBeInTheDocument()
 })
 
-test("Counter classic button", () => {
+test("click counter classic button", () => {
 
   render(<CounterClassic/>)
 

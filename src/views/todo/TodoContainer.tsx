@@ -1,11 +1,11 @@
 import {useState} from "react";
-import {TodoItem} from "./TodoItem";
+import {Todo, TodoItem} from "./TodoItem";
 
 export function TodoContainer() {
 
-    const [ items, setItems] = useState([])
+    const [ items /*, setItems*/] = useState([] as Todo[])
 
     return <>
-        <TodoItem/>
+        {items.map((item) => <TodoItem item={item}/>)}
     </>
 }
