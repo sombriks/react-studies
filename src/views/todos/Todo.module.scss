@@ -1,0 +1,23 @@
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-container {
+  display:flex;
+  flex-direction: row;
+  min-width:40vw;
+  max-width:60vw;
+
+  div, input[type="text"] {
+    flex-grow: 1;
+  }
+
+  input[type="checkbox"], button {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

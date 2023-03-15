@@ -10,7 +10,7 @@ import './App.scss';
 import {Home} from "./views/home/Home";
 import {Counter, CounterClassic} from "./views/counter";
 import {ListItems} from "./views/list-rendering/ListItems";
-import {TodoContainer} from "./views/todo/TodoContainer";
+import {TodoContainer} from "./views/todos/TodoContainer";
 
 function App() {
     return (
