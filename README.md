@@ -1,6 +1,6 @@
 # React studies
 
-Simple and prgressive exercicses to create user interfaces with react
+Simple and progressive exercises to create user interfaces with react
 
 ## Roadmap
 
@@ -11,7 +11,7 @@ Simple and prgressive exercicses to create user interfaces with react
 - [X] Coverage (just add --coverage into npm test script)
 - [X] Publish on GitHub pages or something <https://sombriks.github.io/react-studies>
 - [X] TODO list
-- [ ] Memory game
+- [X] Memory game
 - [ ] Tic-tac-toe
 - [ ] Wordle-ish clone
 

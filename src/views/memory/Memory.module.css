@@ -1,0 +1,48 @@
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.board {
+    min-width: 600px;
+    min-height: 600px;
+    max-width: 600px;
+    max-height: 600px;
+    border: 1px solid darkslateblue;
+    border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+
+.card {
+    border: 1px solid darkslateblue;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    background-color: rebeccapurple;
+}
+
+.revealed {
+    background-color: darkorange;
+}
+
+.matched {
+    background-color: darkgreen;
+}
+
+.mismatch {
+    background-color: darkred;
+}
