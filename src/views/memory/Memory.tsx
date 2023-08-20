@@ -1,5 +1,4 @@
 import styles from "./Memory.module.css";
-import {useState} from "react";
 import {MCard, useCards} from "./cards";
 
 export function Memory() {
@@ -41,7 +40,7 @@ export function Memory() {
         <button onClick={e => restart()}>restart</button>
         <div className={styles.board}>
             {cardList.map(c => {
-                return <div aria-id={c.id} key={c.id} className={`${styles.card} ${styles[c.status]}`}
+                return <div data-id={c.id} key={c.id} className={`${styles.card} ${styles[c.status]}`}
                             onClick={e => select(c)}>
                     {"hidden" === c.status ? "?" : c.item}
                 </div>
