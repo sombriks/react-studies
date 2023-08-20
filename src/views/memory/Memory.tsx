@@ -40,7 +40,7 @@ export function Memory() {
         <button onClick={e => restart()}>restart</button>
         <div className={styles.board}>
             {cardList.map(c => {
-                return <div data-id={c.id} key={c.id} className={`${styles.card} ${styles[c.status]}`}
+                return <div data-testid={c.id} key={c.id} className={`${styles.card} ${styles[c.status]}`}
                             onClick={e => select(c)}>
                     {"hidden" === c.status ? "?" : c.item}
                 </div>

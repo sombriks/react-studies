@@ -6,7 +6,7 @@ export interface MCard {
     status: "hidden" | "revealed" | "matched" | "mismatch"
 }
 
-const DELAY = 2000
+export const DELAY = 2000
 
 export function useCards() {
 
